@@ -21,7 +21,11 @@ fun  main(args:Array<String>){
     println(apples/4)
 
     println()
-    val  weeks:Int=130
+
+    val  weeks:Int=234
     val  years:Double=weeks/52.0
-    println(years)
+    println("$weeks weeks is $years years")
+
+    println("My name is"+tim)
+    println("I can print \$tim ")
 }
