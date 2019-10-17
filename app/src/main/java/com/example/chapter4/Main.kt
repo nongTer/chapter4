@@ -121,7 +121,11 @@ if (tim.dropLoot(bluePotion)){
 }else{
  println("you don't have${bluePotion.name}")
 }
- tim.dropLoot("Invisibility Potion")
+ if (tim.dropLoot("Invisibility Potion")) {
+     tim.showInventory()
+ }else{
+     println("You don't an Invisibility Potion")
+ }
  /*for (i in 10 downTo 0 step 2){
         println("$i squared is ${i*i}")
     }
