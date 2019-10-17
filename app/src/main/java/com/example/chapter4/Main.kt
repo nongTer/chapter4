@@ -69,7 +69,7 @@ fun  main(args: Array<String>, one2watch: Any) {
     val tim =Player("Tim")
     tim.show()
 
-   val  louise =Player("Louise",5)
+  /* val  louise =Player("Louise",5)
     louise.show()
 
     val gr8 =Player("gr8",4,8)
@@ -108,8 +108,9 @@ fun  main(args: Array<String>, one2watch: Any) {
     tim.inventory.add(Loot("Ring of Protection +2",LootType.RING,40.25))
     tim.inventory.add(Loot("Invisibility Potion",LootType.POTION,35.91))
     tim.showInventory()
-    println(tim.toString())
-    for (i in 1..10){
-        println()
+    println(tim.toString())*/
+
+ for (i in 10 downTo 0){
+        println("$i squared is ${i*i}")
     }
 }
