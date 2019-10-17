@@ -1,5 +1,5 @@
-fun  main(args:Array<String>){
-    println("Hello World")
+fun  main(args:Array<String>) {
+    /*println("Hello World")
     println("My first Kotlin program")
 
     var jim:String ="James T Kirk"
@@ -31,4 +31,15 @@ fun  main(args:Array<String>){
 
     println("My name is"+tim)
     println("Jim is $jim ")
+}*/
+    val lives =0
+
+    val isGameOver =(lives<1)
+    println(isGameOver)
+
+    if (isGameOver){
+        println("Game over!")
+    }else{
+        println("You're still alive!")
+    }
 }
