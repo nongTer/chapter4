@@ -69,7 +69,7 @@ fun  main(args: Array<String>, one2watch: Any) {
     val tim =Player("Tim")
     tim.show()
 
-    val  louise =Player("Louise",5)
+   val  louise =Player("Louise",5)
     louise.show()
 
     val gr8 =Player("gr8",4,8)
@@ -101,7 +101,15 @@ fun  main(args: Array<String>, one2watch: Any) {
 
     val redPotion=Loot("Red Potion",LootType.POTION,7.50)
     tim.inventory.add(redPotion)
+    val chestArmor=Loot("+3 Chest Armor",LootType.ARMOR,80.00)
+    tim.inventory.add(chestArmor)
+    tim.showInventory()
 
+    tim.inventory.add(Loot("Ring of Protection +2",LootType.RING,40.25))
+    tim.inventory.add(Loot("Invisibility Potion",LootType.POTION,35.91))
     tim.showInventory()
     println(tim.toString())
+    for (i in 1..10){
+        println()
+    }
 }
