@@ -10,4 +10,18 @@ fun  main(args:Array<String>){
     var  timMonthlySalary:Int=timsWeeklySalary*4
     println(timsWeeklySalary)
     println(timMonthlySalary)
+
+    println()
+
+    val  apples:Int=6
+    val  orenges :Int=5
+    var fruit :Int= apples-orenges
+    println(fruit)
+
+    println(apples/4)
+
+    println()
+    val  weeks:Int=130
+    val  years:Double=weeks/52.0
+    println(years)
 }
