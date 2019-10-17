@@ -32,7 +32,7 @@ fun  main(args:Array<String>) {
     println("My name is"+tim)
     println("Jim is $jim ")
 }*/
-    val lives =0
+    /*val lives =0
 
     val isGameOver =(lives<1)
     println(isGameOver)
@@ -41,5 +41,18 @@ fun  main(args:Array<String>) {
         println("Game over!")
     }else{
         println("You're still alive!")
+    }*/
+    println("How old are you")
+    val age = readLine()!!.toInt()
+    println("age is $age")
+
+    val message :String
+   message = if (age<18){
+         "You're too young to vote"
+    }else if(age==100){
+        "Congratulation"
+    }else{
+        "You can vote"
     }
+    println(message)
 }
