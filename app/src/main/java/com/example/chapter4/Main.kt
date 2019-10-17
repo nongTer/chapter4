@@ -1,7 +1,6 @@
 import com.example.chapter4.Loot
 import com.example.chapter4.LootType
 import com.example.chapter4.Player
-import com.example.chapter4.Weapon
 
 fun  main(args: Array<String>, one2watch: Any) {
     /*println("Hello World")
