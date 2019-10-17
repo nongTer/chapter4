@@ -65,8 +65,7 @@ fun  main(args: Array<String>, one2watch: Any) {
         "You can vote"
     }*/
     println(message)*/
-
-    val tim =Player("Tim")
+   /* val tim =Player("Tim")
     tim.show()
 
    val  louise =Player("Louise",5)
@@ -126,6 +125,7 @@ if (tim.dropLoot(bluePotion)){
  }else{
      println("You don't an Invisibility Potion")
  }
+ //println("this is a test")
  /*for (i in 10 downTo 0 step 2){
         println("$i squared is ${i*i}")
     }
@@ -133,5 +133,7 @@ if (tim.dropLoot(bluePotion)){
         if (value % 5==0){
             println(value)
         }
-    }*/
+    }*/*/
+
+
 }
