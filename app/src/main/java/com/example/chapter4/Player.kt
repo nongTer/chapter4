@@ -33,6 +33,11 @@ class Player (val name:String,var level:Int=1,var lives:Int=3,var score:Int=0){
         }else{
             false
         }
+
+    }
+    fun dropLoot(name: String):Boolean{
+        println("$name will be dropped")
+        return  true
     }
     fun showInventory(){
         println("$name's Inventory")
