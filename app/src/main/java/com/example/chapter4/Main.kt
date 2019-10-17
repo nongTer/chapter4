@@ -69,7 +69,7 @@ fun  main(args: Array<String>, one2watch: Any) {
     val tim =Player("Tim")
     tim.show()
 
-  /* val  louise =Player("Louise",5)
+   val  louise =Player("Louise",5)
     louise.show()
 
     val gr8 =Player("gr8",4,8)
@@ -100,22 +100,22 @@ fun  main(args: Array<String>, one2watch: Any) {
     tim.show()
 
     val redPotion=Loot("Red Potion",LootType.POTION,7.50)
-    tim.inventory.add(redPotion)
+    tim.getLoot(redPotion)
     val chestArmor=Loot("+3 Chest Armor",LootType.ARMOR,80.00)
-    tim.inventory.add(chestArmor)
+    tim.getLoot(chestArmor)
     tim.showInventory()
 
-    tim.inventory.add(Loot("Ring of Protection +2",LootType.RING,40.25))
-    tim.inventory.add(Loot("Invisibility Potion",LootType.POTION,35.91))
+    tim.getLoot(Loot("Ring of Protection +2",LootType.RING,40.25))
+    tim.getLoot( Loot("Invisibility Potion",LootType.POTION,35.91))
     tim.showInventory()
-    println(tim.toString())*/
+    println(tim.toString())
 
- for (i in 10 downTo 0 step 2){
+ /*for (i in 10 downTo 0 step 2){
         println("$i squared is ${i*i}")
     }
     for (value in 3..100 step 3){
         if (value % 5==0){
             println(value)
         }
-    }
+    }*/
 }
