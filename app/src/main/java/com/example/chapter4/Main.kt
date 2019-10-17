@@ -1,4 +1,5 @@
 import com.example.chapter4.Player
+import com.example.chapter4.Weapon
 
 fun  main(args: Array<String>, one2watch: Any) {
     /*println("Hello World")
@@ -75,4 +76,19 @@ fun  main(args: Array<String>, one2watch: Any) {
     one2watch.show()
     println(one2watch.weapon.name)
     println(one2watch.weapon.damageInflicted)
+
+    val axe =Weapon("Axe",12)
+    gr8.weapon=axe
+    println(gr8.weapon.name)
+    println(axe.name)
+
+    axe.damageInflicted=24
+    println(axe.damageInflicted)
+    println(gr8.weapon.damageInflicted)
+
+    tim.weapon = Weapon("Sword",10)
+    println(tim.name)
+
+   tim.weapon= Weapon("Spear",14)
+    println(tim.weapon.name)
 }
