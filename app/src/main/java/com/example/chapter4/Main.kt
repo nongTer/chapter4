@@ -1,6 +1,7 @@
 import com.example.chapter4.Loot
 import com.example.chapter4.LootType
 import com.example.chapter4.Player
+import com.example.chapter4.Weapon
 
 fun  main(args: Array<String>, one2watch: Any) {
     /*println("Hello World")
@@ -100,6 +101,7 @@ fun  main(args: Array<String>, one2watch: Any) {
 
     val redPotion=Loot("Red Potion",LootType.POTION,7.50)
     tim.inventory.add(redPotion)
+
     tim.showInventory()
     println(tim.toString())
 }
