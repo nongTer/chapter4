@@ -2,13 +2,12 @@ fun  main(args:Array<String>){
     println("Hello World")
     println("My first Kotlin program")
 
-    var jim:String
-    var  tim :String
-    tim="Tim Buchalka"
+    var jim:String ="James T Kirk"
+    val  tim :String="Tim Buchalka"
     println(tim)
 
-    var  timsWeeklySalary:Int =32
-    var  timMonthlySalary:Int=timsWeeklySalary*4
+    val  timsWeeklySalary:Int =32
+    val  timMonthlySalary:Int=timsWeeklySalary*4
     println(timsWeeklySalary)
     println(timMonthlySalary)
 
@@ -16,7 +15,7 @@ fun  main(args:Array<String>){
 
     val  apples:Int=6
     val  orenges :Int=5
-    var fruit :Int= apples-orenges
+    val fruit :Int= apples-orenges
     println("$apples apples - $orenges oranges leaves $fruit piece(s) of fruit ")
 
     println("A quarter of the apples is ${apples/4}")
@@ -27,8 +26,9 @@ fun  main(args:Array<String>){
     val  years:Double=weeks/52.0
     println("$weeks weeks is $years years")
 
-    tim="James T Kirk"
+    jim="James T Kirk"
+
 
     println("My name is"+tim)
-    println("I can print \$tim ")
+    println("Jim is $jim ")
 }
